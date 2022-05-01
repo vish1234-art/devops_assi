@@ -1,4 +1,4 @@
-FROM centos:latest
+
 RUN yum install httpd -y
 WORKDIR /var/www/html
 RUN echo "Welcome to devops assignment" > vish.html
